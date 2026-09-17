@@ -65,7 +65,7 @@ describe('useSessionWebSocket', () => {
     expect(result.current.turns).toBe(2)
   })
 
-it('tracks replay lifecycle', async () => {
+  it('tracks replay lifecycle', async () => {
     setAuth('dev-key', 'player-1', 'Test Player')
     const { result } = renderSessionHook()
 
